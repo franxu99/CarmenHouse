@@ -1,0 +1,6 @@
+nav{
+    border-bottom: solid 2px black;
+}
+nav a{
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Lato', sans-serif;
+  background-image: url('C:\Users\franl\OneDrive\Escritorio\carmen-house\carmen-house\src\assets\jaen-catedral-1.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.links-layout{
+  padding: .8rem;
+  border: solid 1px;
+  background-color: #6bcbff;
+  transition: ease-in-out;
+  transition-duration: 0.8s;
+}
+
+.links-layout:hover{
+  background-color: #0fb7ff;
+}
+
+
+.hover-title {
+  color: white;
+  border: 8px solid;
+  border-image: repeating-linear-gradient(135deg,#ffffff 0 10px,#ffffff 0 20px,#ffffff 0 30px) 8;
+  -webkit-mask: 
+    conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+     var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+     0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
+  transition: .3s, -webkit-mask-position .3s .3s;
+}
+.hover-title:hover{
+  --_i: 100%;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  transition: .3s, -webkit-mask-size .3s .3s;
+}
+
