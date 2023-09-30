@@ -18,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/reservar',
     element: <Reservar />
+  },
+  {
+    path: '/contacto',
+    element: <Reservar />
   }
 ])
 

@@ -4,7 +4,7 @@ import './Navigation.css'
 
 function Navegation() {
   return (
-    <nav className='h-32 bg-[#dbeaff98] flex items-center justify-around'>
+    <nav className='h-32 bg-[#dbeaffe5] flex items-center justify-around'>
         <Link 
             className='links-layout'
             to={'/'}>
