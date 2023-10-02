@@ -1,9 +1,8 @@
 import React from 'react'
 
 function Footer({page}) {
-  console.log(page)
   return (
-                                //Para las paginas que tengan scroll y las que no se ajuste el footer
+                                //Para las paginas que no tengan scroll y las que no se ajuste el footer
     <footer className={`${page ? 'absolute bottom-0 left-0' : '' } w-[100%] h-32  bg-[#dbeaffe5] flex items-center justify-around border-t border-black`}>
         <nav className='flex gap-20'>
             <p><span className='font-semibold'>Email:</span> javi.tonio@hotmail.com</p>

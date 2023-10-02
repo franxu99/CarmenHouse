@@ -3,29 +3,20 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Description from './description'
 import Services from './Services'
-import Footer from './Footer'
 import Ubication from './Ubication'
-import { Link } from 'react-router-dom'
 
 import './info.css'
 
 
 function Info() {
-    
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
+
   return (
     <>
         <div className='flex justify-center mt-10 '>
             <div className='w-2/3 h-96 flex justify-around bg-[#dbeaffe5] p-4 border rounded'>
                 <Description />
                 <div className='h-[100%] w-[28%] flex items-center justify-center'>
-                    <Carousel className='h-[100%] w-[100%]'>
+                    <Carousel autoPlay className='h-[100%] w-[100%]'>
                         <div className=''>
                             <img src="src\assets\piscina.jpg" alt="" />
                             <p className="legend">Piscina</p>
@@ -49,11 +40,10 @@ function Info() {
                 
             </div>
         </div>
-        <div className='mt-10 p-10 bg-[#dbeaffe5] flex'>
+        <div className='mt-10 mb-10 p-10 bg-[#dbeaffe5] flex'>
             <Services />
             <Ubication />
         </div>
-        <Footer />
     </>
   )
 }
