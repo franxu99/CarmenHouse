@@ -13,10 +13,10 @@ function Info() {
   return (
     <>
         <div className='flex justify-center mt-10 '>
-            <div className='w-2/3 h-96 flex justify-around bg-[#dbeaffe5] p-4 border rounded'>
+            <div className='info w-2/3 h-96 flex justify-around bg-[#dbeaffe5] p-4 border rounded'>
                 <Description />
-                <div className='h-[100%] w-[28%] flex items-center justify-center'>
-                    <Carousel autoPlay className='h-[100%] w-[100%]'>
+                <div className='carrusel h-[100%] w-[28%] flex items-center justify-center'>
+                    <Carousel autoPlay className='h-[80%] w-[100%] 2xl:mb-10'>
                         <div className=''>
                             <img src="src\assets\piscina.jpg" alt="" />
                             <p className="legend">Piscina</p>
@@ -40,7 +40,7 @@ function Info() {
                 
             </div>
         </div>
-        <div className='mt-10 mb-10 p-10 bg-[#dbeaffe5] flex'>
+        <div className='services-ubication mt-10 mb-10 p-10 bg-[#dbeaffe5] flex'>
             <Services />
             <Ubication />
         </div>

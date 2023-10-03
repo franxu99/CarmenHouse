@@ -43,3 +43,26 @@ body{
   transition: .3s, -webkit-mask-size .3s .3s;
 }
 
+
+@media (max-width: 690px){
+  .footer{
+    height: 20rem;
+    border: none;
+  }
+  .footer > nav{
+    flex-direction: column;
+  }
+    
+}
+
+@media (max-width: 400px){
+    .footer > nav{
+      justify-content: center;
+      align-items: center;
+    }
+    .title{
+      text-align: center;
+    }
+}
+
+

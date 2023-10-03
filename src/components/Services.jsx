@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className='h-[40rem] w-1/2 flex flex-col justify-center'>
+    <div className='services-box h-[40rem] w-1/2 flex flex-col justify-center'>
         <h1 className='font-semibold text-4xl text-center'>Servicios Casa</h1>
         <div className='h-[100%] w-[100%] mt-10 flex justify-end'>
             <ul className='h-[100%] w-[70%] list-disc grid grid-cols-2 gap-3 justify-center text-xl columns-2 '>
