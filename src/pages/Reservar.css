@@ -1,0 +1,20 @@
+
+/* RESPONSIVE PAGE CONTACTO */
+@media (max-width: 870px){
+    .container-contacto{
+        
+        margin-bottom: 5rem;
+    }
+    .container-agencias{
+        height: 30rem;
+        gap: 5vh;
+        
+    }
+    .container-agencias > div{
+        flex-direction: column;
+        
+    }
+    .container-agencias > div > img{
+        display: none;
+    }
+  }

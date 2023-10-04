@@ -52,6 +52,12 @@ body{
   .footer > nav{
     flex-direction: column;
   }
+  .footer > nav > a{
+    text-align: center;
+  }
+  .footer > nav > p{
+    text-align: center;
+  }
     
 }
 
@@ -64,5 +70,4 @@ body{
       text-align: center;
     }
 }
-
 

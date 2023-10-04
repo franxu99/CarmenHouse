@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer({page}) {
   return (
@@ -7,7 +8,7 @@ function Footer({page}) {
         <nav className='flex gap-20'>
             <p><span className='font-semibold'>Email:</span> javi.tonio@hotmail.com</p>
             <p><span className='font-semibold'>Teléfono:</span> 676956012</p>
-            <a className='hover:text-blue-700 font-semibold' href="https://www.booking.com/hotel/es/hacienda-olivarera-vega-torrequebradilla1.es.html">Click Enlace Booking</a>
+            <Link className='hover:text-blue-700 font-semibold' to={'/reservar'}>Agencias de Reserva</Link>
         </nav>
     </footer>
   )
