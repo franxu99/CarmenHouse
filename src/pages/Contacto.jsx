@@ -33,7 +33,7 @@ function Contacto() {
         </div>
         <Footer page="Contacto"/>
     </>
-  )
+    )
 }
 
 export default Contacto
