@@ -1,13 +1,14 @@
 import Footer from "../components/Footer"
 import Navegation from "../components/Navigation"
+import './Reservar.css'
 
 function Reservar() {
   return (
     <>
-    <main>
+    <main className="h-[86.6vh]">
         <Navegation />
-        <div className="flex justify-center items-center mt-20">
-            <div className='w-[70vw] flex flex-col items-center  bg-[#ecf2fbcc] rounded'>
+        <div className="container-contacto flex justify-center items-center mt-20">
+            <div className='container-agencias w-[70vw] flex flex-col items-center  bg-[#ecf2fbcc] rounded'>
                 <h1 className='text-center text-3xl mt-5 font-bold'>Reserva en...</h1>
                 <div className="w-[80%] flex items-center justify-between select-none">
                     <img src="src\assets\booking.png" alt="" />
@@ -28,7 +29,7 @@ function Reservar() {
 
         </div>
     </main>
-        <Footer page='reservar' />
+        <Footer  />
     </>
     
   )

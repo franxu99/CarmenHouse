@@ -15,23 +15,23 @@ function Contacto() {
     return (
     <>
         <Navegation />
-        <div className='flex items-center justify-center mt-10 mb-10'>
-            <form className='p-16 flex flex-col items-center gap-10 justify-center bg-[#dbeaffe5] rounded' onSubmit={handleSubmit}>
-                <h2 className='text-3xl font-normal underline select-none'>Envíanos un mensaje con tu consulta!😊</h2>
-                <div className='w-[25vw] flex justify-between'>
+        <div className='divFormContacto flex items-center justify-center mt-10 mb-10'>
+            <form className='formContacto p-16 flex flex-col items-center gap-10 justify-center bg-[#dbeaffe5] rounded' onSubmit={handleSubmit}>
+                <h2 className='ttleForm text-3xl font-normal select-none'>ENVÍANOS UN MENSAJE CON TU CONSULTA!😊</h2>
+                <div className='w-[55%] flex justify-between items-center'>
                     <label className='text-xl font-medium' htmlFor="emailInput">Email</label>
-                    <input className='w-72 h-11 pl-2' type="email" name="email" id="emailInput" placeholder='Escribe tu email...' />
+                    <input className='h-11 w-[70%] pl-2 border rounded border-black' type="email" name="email" id="emailInput" placeholder='Escribe tu email...' />
                     <ValidationError prefix='Email' field='email' errors={state.errors} />
                 </div>
-                <div className='w-[25vw] flex justify-between'>
+                <div className='w-[55%] flex justify-between items-center'>
                     <label className='text-xl font-medium' htmlFor="descripcionInput">Descripción</label>
-                    <textarea className='w-72 pl-2 pt-2' name="descripcion" id="descripcionInput" cols="30" rows="10" placeholder='Escribe tu pregunta aquí...'></textarea>
+                    <textarea className='w-[70%] pl-2 pt-2 pr-1 resize-none border border-black rounded' name="descripcion" id="descripcionInput" cols="30" rows="10" placeholder='Escribe tu pregunta aquí...'></textarea>
                     <ValidationError prefix='DescripcionInput' field='descripcionInput' errors={state.errors} />
                 </div>
-                <button className='links-layout rounded cursor-pointer' type="submit" disabled={state.submitting}>Enviar</button>
+                <button className='w-28 links-btns rounded cursor-pointer' type="submit" disabled={state.submitting}>Enviar</button>
             </form>
         </div>
-        <Footer page="Contacto"/>
+        <Footer page="contacto"/>
     </>
     )
 }

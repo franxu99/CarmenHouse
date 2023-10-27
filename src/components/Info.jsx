@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Description from './description'
+import Description from './Description'
 import Services from './Services'
 import Ubication from './Ubication'
 
