@@ -18,19 +18,19 @@ function Info() {
                 <div className='carrusel h-[100%] w-[28%] flex items-center justify-center'>
                     <Carousel autoPlay className='h-[80%] w-[100%] 2xl:mb-10'>
                         <div className=''>
-                            <img src="src\assets\piscina.jpg" alt="" />
+                            <img src="src\img\piscina.jpg" alt="" />
                             <p className="legend">Piscina</p>
                         </div>
                         <div>
-                            <img src="src\assets\WhatsApp Image 2023-07-25 at 19.10.05.jpeg" alt="" />
+                            <img src="src\img\WhatsApp Image 2023-07-25 at 19.10.05.jpeg" alt="" />
                             <p className="legend">Patio bajo</p>
                         </div>
                         <div>
-                            <img src="src\assets\WhatsApp Image 2023-07-25 at 19.09.59 (2).jpeg" alt="" />
+                            <img src="src\img\WhatsApp Image 2023-07-25 at 19.09.59 (2).jpeg" alt="" />
                             <p className="legend">Barbacoa</p>
                         </div>
                         <div>
-                            <img src="src\assets\WhatsApp Image 2023-07-25 at 19.48.31.jpeg" alt="" />
+                            <img src="src\img\WhatsApp Image 2023-07-25 at 19.48.31.jpeg" alt="" />
                             <p className="legend">Salón</p>
                         </div>
                         

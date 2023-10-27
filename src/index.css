@@ -5,7 +5,7 @@
 body{
   font-family: 'Hind Siliguri', sans-serif;
   font-family: 'Lato', sans-serif;
-  background-image: url('..\assets\jaen-catedral-1.jpg');
+  background-image: url('./img/jaen-catedral-1.jpg');
   background-repeat: no-repeat ;
   background-size: cover;
   background-attachment: fixed;
