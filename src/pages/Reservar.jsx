@@ -1,6 +1,8 @@
 import Footer from "../components/Footer"
 import Navegation from "../components/Navigation"
 import './Reservar.css'
+
+//IMAGENES
 import imgBooking from '../img/booking.png'
 import imgAirbnb from '../img/airbnb.png'
 import imgTripadvisor from '../img/tripadvisor.png'
